@@ -2,6 +2,7 @@ import React from "react"
 import FirstInput from "../components/Header/input1"
 import SecondInput from "../components/Header/input2"
 import Buttontag from "../components/Header/button"
+import Link from "next/link"
 
 
 function MyApp(){
@@ -13,6 +14,8 @@ function MyApp(){
         <SecondInput placeholder={"Enter your username"}/>
         <br/>
         <Buttontag/>
+        <br/>
+        <Link href="/pages/post/">Click</Link>
         </>
     )
 }
