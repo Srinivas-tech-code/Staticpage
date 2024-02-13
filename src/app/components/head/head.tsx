@@ -7,8 +7,9 @@ const Head:React.FC = () => {
   return (
 
   <div className={styles.container}>
-  
+      <div>
       <Image className={styles.Image} width={50} height={50}  alt={"Dhoni"} src={"/Dhoni.png"}/>
+      </div>
       <div className={styles.block}>
         <div className={styles.one}>Dhoni</div>
         <div className={styles.two}>6 June 2021, 12:10 pm</div>

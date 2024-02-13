@@ -8,6 +8,7 @@ interface Propshere {
 
 const SecondInput: React.FC<Propshere> = ({ placeholder }) => {
   return (
+    
     <div className={styles.container}>
       
       <input
@@ -16,6 +17,7 @@ const SecondInput: React.FC<Propshere> = ({ placeholder }) => {
         placeholder={placeholder}
       />
     </div>
+    
   );
 }
 
