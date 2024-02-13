@@ -1,7 +1,7 @@
 import React from "react"
-import FirstInput from "../components/Header/input1"
-import SecondInput from "../components/Header/input2"
-import Buttontag from "../components/Header/button"
+import FirstInput from "../components/Input1/input1"
+import SecondInput from "../components/Input2/input2"
+import Buttontag from "../components/button/button"
 import Link from "next/link"
 
 

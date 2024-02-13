@@ -1,4 +1,4 @@
-
+import styles from './input2.module.css'
 import React from 'react';
 
 interface Propshere {
@@ -8,10 +8,10 @@ interface Propshere {
 
 const SecondInput: React.FC<Propshere> = ({ placeholder }) => {
   return (
-    <div className="mx-8">
+    <div className={styles.container}>
       
       <input
-        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        className={styles.input}
         
         placeholder={placeholder}
       />

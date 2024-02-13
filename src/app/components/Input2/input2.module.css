@@ -1,0 +1,27 @@
+@media only screen and (max-width:600px) {
+    .container{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+  .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin: auto;
+    border: 2px solid black; 
+    border-radius: 4px; 
+    width: 310px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    color: #4a5568; 
+    line-height: 1.25;
+    outline: none;
+    box-shadow: 0 0 0 1px #a9c0e7; 
+  }
+  
+}
