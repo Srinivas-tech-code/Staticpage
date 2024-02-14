@@ -1,32 +1,34 @@
 @media only screen and (max-width:480px) and (min-width:320px) {
     .container{
         background-color: white;
-        padding: 4px auto auto auto ;
-        width: 100%;
-        height: 10%;
+        padding: auto auto auto auto ;
+        width: 100 vw;
+        height: 5 vh;
+        display: inline-flex;
+        justify-content: flex-start;
+        
+        
+
+    }
+    .hhh{
         display:flex;
         align-items: flex-start;
-        
-        padding-top: 3px;
-        padding-bottom: 3px;
     }
     .Image{
-        height: 50px;
-        width: 50px;
-        border-radius: 9999px;
-    }
-    .block{
-        margin-left: 0.75rem;
         
+        border-radius: 9999px;
+        margin:auto 0 auto 0;
     }
+    
     .one{
         font-size: 0.875rem;
         line-height: 1.25rem;
         font-weight: 600; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        display: block; 
-        line-height: 1.25;
+        width: fit-content;
+        
+        margin: 0 80% auto 20%;
     }
     .two{
         color: gray;
@@ -34,78 +36,100 @@
         font-size: 0.75rem; 
         line-height: 1rem; 
         display: block;
+        position: absolute;
+        top: 5%;
+        right: auto;
+        left: auto;
+        bottom: auto;
     }
     .three{
-        margin-left: 20rem;
-        position: absolute; 
-        right: 0;
-        display: 'flex';
-        justify-content:'flex-end';
-        float: left;
-    }
-    .three.dop{
-        width: 25px;
-        height: 25px;
+        margin:auto 4% auto 96%;
+        
+       
+       position: absolute;
+       top: auto;
+       right: 29.2%;
+       bottom: auto;
+       left: auto;
+       
+        
+        
     }
     
+    
     .five{
-        margin-right: 1rem;
-        display:'flex';
-        flex-direction: column;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        margin: auto 3px auto auto;
+        width: 5px;
+        height: 10px;
+       position: absolute;
+       top: auto;
+       right: 27%;
+       bottom: auto;
+       left: auto;
 
-        margin-left: 0.5rem;;
+        
     }
     .six{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        position: absolute;
+        top:5%;
+        right: 8%;
+        bottom: auto;
+        left: auto;
 
     }
     .seven{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        position: absolute;
+        top: 2%;
+        right: 3%;
+        bottom: auto;
+        left: auto;
+        
  
     }
     .eight{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        width: 1%;
+        height: 1%;
+        position: absolute;
+        top: 1%;
+        right: 2%;
+        bottom: auto;
+        
+        
  
     }
 }
-@media only screen and (max-width:767px) and (min-width:480px){
+@media only screen and (max-width:767px) and (min-width:480px) {
     .container{
         background-color: white;
         padding: 4px auto auto auto ;
         width: 100%;
         height: 40px;
+        display: inline-flex;
+        justify-content: flex-start;
+        
+        
+        
+    }
+    .hhh{
         display:flex;
         align-items: flex-start;
-        
-        padding-top: 3px;
-        padding-bottom: 3px;
     }
     .Image{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         border-radius: 9999px;
+        margin:auto 0 auto 0;
     }
-    .block{
-        margin-left: 0.75rem;
-        
-    }
+    
     .one{
         font-size: 0.875rem;
         line-height: 1.25rem;
         font-weight: 600; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        display: block; 
-        line-height: 1.25;
+        
+        
+        margin: 0 80% auto 2px;
     }
     .two{
         color: gray;
@@ -113,78 +137,100 @@
         font-size: 0.75rem; 
         line-height: 1rem; 
         display: block;
+        position: absolute;
+        top: 30px;
+        right: auto;
+        left: 50px;
+        bottom: auto;
     }
     .three{
-        margin-left: 20rem;
-        position: absolute; 
-        right: 0;
-        display: 'flex';
-        justify-content:'flex-end';
-        float: left;
-    }
-    .three.dop{
-        width: 25px;
-        height: 25px;
+        margin:auto 0 auto auto;
+        
+       width: 30px;
+       height: 30px;
+       position: absolute;
+       top: 3px;
+       right: 140px;
+       bottom: auto;
+       left: auto;
+       
+        
+        
     }
     
+    
     .five{
-        margin-right: 1rem;
-        display:'flex';
-        flex-direction: column;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        margin: auto 3px auto auto;
+        width: 5px;
+        height: 10px;
+       position: absolute;
+       top: 3px;
+       right: 120px;
+       bottom: auto;
+       left: auto;
 
-        margin-left: 0.5rem;;
+        
     }
     .six{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        bottom: auto;
+        left: auto;
 
     }
     .seven{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        position: absolute;
+        top: 9px;
+        right: 22px;
+        bottom: auto;
+        left: auto;
+        
  
     }
     .eight{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        top: 8px;
+        right: 19px;
+        bottom: auto;
+        left: auto;
  
     }
 }
-@media only screen and (max-width:1280px) and (min-width:767px){
+@media only screen and (max-width:1280px) and (min-width:767px) {
     .container{
         background-color: white;
         padding: 4px auto auto auto ;
         width: 100%;
         height: 40px;
+        display: inline-flex;
+        justify-content: flex-start;
+        
+        
+        
+    }
+    .hhh{
         display:flex;
         align-items: flex-start;
-        
-        padding-top: 3px;
-        padding-bottom: 3px;
     }
     .Image{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         border-radius: 9999px;
+        margin:auto 0 auto 0;
     }
-    .block{
-        margin-left: 0.75rem;
-        
-    }
+    
     .one{
         font-size: 0.875rem;
         line-height: 1.25rem;
         font-weight: 600; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        display: block; 
-        line-height: 1.25;
+        
+        
+        margin: 0 80% auto 2px;
     }
     .two{
         color: gray;
@@ -192,46 +238,65 @@
         font-size: 0.75rem; 
         line-height: 1rem; 
         display: block;
+        position: absolute;
+        top: 30px;
+        right: auto;
+        left: 50px;
+        bottom: auto;
     }
     .three{
-        margin-left: 20rem;
-        position: absolute; 
-        right: 0;
-        display: 'flex';
-        justify-content:'flex-end';
-        float: left;
-    }
-    .three.dop{
-        width: 25px;
-        height: 25px;
+        margin:auto 0 auto auto;
+        
+       width: 30px;
+       height: 30px;
+       position: absolute;
+       top: 3px;
+       right: 140px;
+       bottom: auto;
+       left: auto;
+       
+        
+        
     }
     
+    
     .five{
-        margin-right: 1rem;
-        display:'flex';
-        flex-direction: column;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        margin: auto 3px auto auto;
+        width: 5px;
+        height: 10px;
+       position: absolute;
+       top: 3px;
+       right: 120px;
+       bottom: auto;
+       left: auto;
 
-        margin-left: 0.5rem;;
+        
     }
     .six{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        bottom: auto;
+        left: auto;
 
     }
     .seven{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        position: absolute;
+        top: 9px;
+        right: 22px;
+        bottom: auto;
+        left: auto;
+        
  
     }
     .eight{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 5%;
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        top: 8px;
+        right: 19px;
+        bottom: auto;
+        left: auto;
  
     }
 }
