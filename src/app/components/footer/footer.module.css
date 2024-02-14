@@ -26,7 +26,8 @@
         top: 46%;
         bottom: auto;
         left: 90%;
-        margin: auto 0 auto auto;
+        margin: auto 0 auto 100%;
+        
         
 
         border-radius: 0.25rem;
@@ -86,7 +87,8 @@
     }
     .opt{
        position: absolute;
-       top: 65%;
+       top: 85%;
+
        
     }
     .rtu{
@@ -95,5 +97,10 @@
         right: 2%;
 
     }
-    
+    .ppt{
+        position: absolute;
+        top: 46%;
+        right: 1%;
+        left: 98%;
+    }   
 }
