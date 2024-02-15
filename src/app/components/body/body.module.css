@@ -2,13 +2,13 @@
     .container{
         padding: 0;
         
-        width: 100vw;        
+        width: 100 vw;        
         background-color: #f0f4f8;
     .Image{
-        width:'100vw'; 
+        width:100 vw; 
         padding: 0%;
         
-        height:80vh;
+        height:80 vh;
         margin: 0;
     }
     
@@ -17,15 +17,13 @@
 @media only screen and (max-width:767px) and (min-width:480px){
     .container{
         padding: 0;
-        
-        
+        width: 100 vw;
         background-color: #f0f4f8;
     .Image{
-        width:'100%'; 
-        
+        width:100 vw; 
         left:0; 
-        height:100%;
-        margin: auto auto auto auto;
+        height:80 vh;
+        margin:0;
     }
     
 }  

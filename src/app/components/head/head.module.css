@@ -43,46 +43,38 @@
         bottom: auto;
     }
     .three{
-        margin:auto 4% auto 96%;
-        
-       
+        margin:auto 4.5% auto 96%;
        position: absolute;
        top: auto;
-       right: 29.2%;
+       right: 31%;
        bottom: auto;
-       left: auto;
-       
-        
-        
+          
+    }
+    .fivesix{
+        margin: auto 6.8% auto auto;
+        right: 12%;
+        position: absolute;
     }
     
-    
     .five{
-        margin: auto 3px auto auto;
-        width: 5px;
-        height: 10px;
+       
+       margin-right: 4.8%;
        position: absolute;
        top: auto;
-       right: 27%;
-       bottom: auto;
-       left: auto;
-
-        
+       right: 57%;
+       
     }
     .six{
         position: absolute;
         top:5%;
-        right: 8%;
-        bottom: auto;
-        left: auto;
-
+        left:65%;
     }
     .seven{
         position: absolute;
         top: 2%;
-        right: 3%;
+        left: 88%;
         bottom: auto;
-        left: auto;
+      
         
  
     }
@@ -91,7 +83,7 @@
         height: 1%;
         position: absolute;
         top: 1%;
-        right: 2%;
+        left: 94%;
         bottom: auto;
         
         
@@ -101,9 +93,9 @@
 @media only screen and (max-width:767px) and (min-width:480px) {
     .container{
         background-color: white;
-        padding: 4px auto auto auto ;
-        width: 100%;
-        height: 40px;
+        padding: auto auto auto auto ;
+        width: 100 vw;
+        height: 5 vh;
         display: inline-flex;
         justify-content: flex-start;
         
@@ -115,8 +107,7 @@
         align-items: flex-start;
     }
     .Image{
-        height: 40px;
-        width: 40px;
+        
         border-radius: 9999px;
         margin:auto 0 auto 0;
     }
@@ -129,7 +120,7 @@
         -moz-osx-font-smoothing: grayscale;
         
         
-        margin: 0 80% auto 2px;
+        margin: 0 80% auto 20%;
     }
     .two{
         color: gray;
@@ -138,73 +129,60 @@
         line-height: 1rem; 
         display: block;
         position: absolute;
-        top: 30px;
+        top: 5%;
         right: auto;
-        left: 50px;
+        left: auto;
         bottom: auto;
     }
     .three{
-        margin:auto 0 auto auto;
-        
-       width: 30px;
-       height: 30px;
+        margin:auto 4.5% auto 96%;
        position: absolute;
-       top: 3px;
-       right: 140px;
+       top: auto;
+       right: 31%;
        bottom: auto;
-       left: auto;
-       
-        
-        
+       left: auto;   
+    }
+    .fivesix{
+        margin: auto 4.8% auto auto;
+        right: 10%;
+        position: absolute;
     }
     
-    
     .five{
-        margin: auto 3px auto auto;
+        margin: auto 4.8% auto auto;
         width: 5px;
         height: 10px;
        position: absolute;
-       top: 3px;
-       right: 120px;
-       bottom: auto;
-       left: auto;
-
-        
+       top: auto;
+       right: 25%;
+       
     }
     .six{
         position: absolute;
-        top: 20px;
-        right: 50px;
-        bottom: auto;
-        left: auto;
-
+        top:5%;
+        left:68%;
     }
     .seven{
         position: absolute;
-        top: 9px;
-        right: 22px;
+        top: 2%;
+        left: 86%;
         bottom: auto;
-        left: auto;
-        
- 
     }
     .eight{
-        width: 5px;
-        height: 5px;
+        width: 1%;
+        height: 1%;
         position: absolute;
-        top: 8px;
-        right: 19px;
+        top: 1%;
+        left: 92%;
         bottom: auto;
-        left: auto;
- 
     }
 }
 @media only screen and (max-width:1280px) and (min-width:767px) {
     .container{
         background-color: white;
-        padding: 4px auto auto auto ;
-        width: 100%;
-        height: 40px;
+        padding: auto auto auto auto ;
+        width: 100 vw;
+        height: 5 vh;
         display: inline-flex;
         justify-content: flex-start;
         
@@ -216,8 +194,7 @@
         align-items: flex-start;
     }
     .Image{
-        height: 40px;
-        width: 40px;
+        
         border-radius: 9999px;
         margin:auto 0 auto 0;
     }
@@ -230,7 +207,7 @@
         -moz-osx-font-smoothing: grayscale;
         
         
-        margin: 0 80% auto 2px;
+        margin: 0 80% auto 20%;
     }
     .two{
         color: gray;
@@ -239,64 +216,51 @@
         line-height: 1rem; 
         display: block;
         position: absolute;
-        top: 30px;
+        top: 5%;
         right: auto;
-        left: 50px;
+        left: auto;
         bottom: auto;
     }
     .three{
-        margin:auto 0 auto auto;
-        
-       width: 30px;
-       height: 30px;
+        margin:auto 4.5% auto 96%;
        position: absolute;
-       top: 3px;
-       right: 140px;
+       top: auto;
+       right: 31%;
        bottom: auto;
-       left: auto;
-       
-        
-        
+       left: auto;   
+    }
+    .fivesix{
+        margin: auto 4.8% auto auto;
+        right: 10%;
+        position: absolute;
     }
     
-    
     .five{
-        margin: auto 3px auto auto;
+        margin: auto 4.8% auto auto;
         width: 5px;
         height: 10px;
        position: absolute;
-       top: 3px;
-       right: 120px;
-       bottom: auto;
-       left: auto;
-
-        
+       top: auto;
+       right: 25%;
+       
     }
     .six{
         position: absolute;
-        top: 20px;
-        right: 50px;
-        bottom: auto;
-        left: auto;
-
+        top:5%;
+        left:68%;
     }
     .seven{
         position: absolute;
-        top: 9px;
-        right: 22px;
+        top: 2%;
+        left: 86%;
         bottom: auto;
-        left: auto;
-        
- 
     }
     .eight{
-        width: 5px;
-        height: 5px;
+        width: 1%;
+        height: 1%;
         position: absolute;
-        top: 8px;
-        right: 19px;
+        top: 1%;
+        left: 92%;
         bottom: auto;
-        left: auto;
- 
     }
 }
