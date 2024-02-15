@@ -100,7 +100,7 @@
         justify-content: flex-start;
         
         
-        
+
     }
     .hhh{
         display:flex;
@@ -118,7 +118,7 @@
         font-weight: 600; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        
+        width: fit-content;
         
         margin: 0 80% auto 20%;
     }
@@ -140,41 +140,46 @@
        top: auto;
        right: 31%;
        bottom: auto;
-       left: auto;   
+          
     }
     .fivesix{
-        margin: auto 4.8% auto auto;
-        right: 10%;
+        margin: auto 6.8% auto auto;
+        right: 12%;
         position: absolute;
     }
     
     .five{
-        margin: auto 4.8% auto auto;
-        width: 5px;
-        height: 10px;
+       
+       margin-right: 4.8%;
        position: absolute;
        top: auto;
-       right: 25%;
+       right: 57%;
        
     }
     .six{
         position: absolute;
         top:5%;
-        left:68%;
+        left:65%;
     }
     .seven{
         position: absolute;
         top: 2%;
-        left: 86%;
+        left: 88%;
         bottom: auto;
+      
+        
+ 
     }
     .eight{
         width: 1%;
         height: 1%;
         position: absolute;
         top: 1%;
-        left: 92%;
+        left: 94%;
         bottom: auto;
+        
+        
+ 
     }
 }
 @media only screen and (max-width:1280px) and (min-width:767px) {
@@ -187,7 +192,7 @@
         justify-content: flex-start;
         
         
-        
+
     }
     .hhh{
         display:flex;
@@ -205,7 +210,7 @@
         font-weight: 600; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        
+        width: fit-content;
         
         margin: 0 80% auto 20%;
     }
@@ -227,40 +232,45 @@
        top: auto;
        right: 31%;
        bottom: auto;
-       left: auto;   
+          
     }
     .fivesix{
-        margin: auto 4.8% auto auto;
-        right: 10%;
+        margin: auto 6.8% auto auto;
+        right: 12%;
         position: absolute;
     }
     
     .five{
-        margin: auto 4.8% auto auto;
-        width: 5px;
-        height: 10px;
+       
+       margin-right: 4.8%;
        position: absolute;
        top: auto;
-       right: 25%;
+       right: 57%;
        
     }
     .six{
         position: absolute;
         top:5%;
-        left:68%;
+        left:65%;
     }
     .seven{
         position: absolute;
         top: 2%;
-        left: 86%;
+        left: 88%;
         bottom: auto;
+      
+        
+ 
     }
     .eight{
         width: 1%;
         height: 1%;
         position: absolute;
         top: 1%;
-        left: 92%;
+        left: 94%;
         bottom: auto;
+        
+        
+ 
     }
 }
