@@ -171,7 +171,9 @@
     .Image{
         
         border-radius: 9999px;
-        margin:auto 4% auto auto;
+        margin-top: 4%;
+        margin-right: 4%;
+        
     }
     
     .one{
@@ -222,7 +224,7 @@
         height: 1%;
         position: absolute;
         top: 1%;
-        left: 94%;
+        left: 96%;
         bottom: auto;
         
         
