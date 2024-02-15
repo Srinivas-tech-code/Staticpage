@@ -17,7 +17,7 @@
     .Image{
         
         border-radius: 9999px;
-        margin:auto 0 auto 0;
+        margin:auto 4% auto auto;
     }
     
     .one{
@@ -27,8 +27,8 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         width: fit-content;
+        margin-right: 88%;
         
-        margin: 0 80% auto 20%;
     }
     .two{
         color: gray;
@@ -38,37 +38,22 @@
         display: block;
         position: absolute;
         top: 5%;
-        right: auto;
-        left: auto;
-        bottom: auto;
+        margin-right: 4%;
     }
     .three{
-        margin:auto 4.5% auto 96%;
-       position: absolute;
-       top: auto;
-       right: 31%;
-       bottom: auto;
-          
+        
+        
+        position: absolute;
+        right: 39%;
     }
     .fivesix{
-        margin: auto 6.8% auto auto;
-        right: 12%;
+        
+        margin-left: 52%;
         position: absolute;
     }
     
-    .five{
-       
-       margin-right: 4.8%;
-       position: absolute;
-       top: auto;
-       right: 57%;
-       
-    }
-    .six{
-        position: absolute;
-        top:5%;
-        left:65%;
-    }
+   
+    
     .seven{
         position: absolute;
         top: 2%;
@@ -109,7 +94,7 @@
     .Image{
         
         border-radius: 9999px;
-        margin:auto 0 auto 0;
+        margin:auto 4% auto auto;
     }
     
     .one{
@@ -119,8 +104,8 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         width: fit-content;
+        margin-right: 88%;
         
-        margin: 0 80% auto 20%;
     }
     .two{
         color: gray;
@@ -130,37 +115,22 @@
         display: block;
         position: absolute;
         top: 5%;
-        right: auto;
-        left: auto;
-        bottom: auto;
+        margin-right: 4%;
     }
     .three{
-        margin:auto 4.5% auto 96%;
-       position: absolute;
-       top: auto;
-       right: 31%;
-       bottom: auto;
-          
+        
+        
+        position: absolute;
+        right: 39%;
     }
     .fivesix{
-        margin: auto 6.8% auto auto;
-        right: 12%;
+        
+        margin-left: 56%;
         position: absolute;
     }
     
-    .five{
-       
-       margin-right: 4.8%;
-       position: absolute;
-       top: auto;
-       right: 57%;
-       
-    }
-    .six{
-        position: absolute;
-        top:5%;
-        left:65%;
-    }
+   
+    
     .seven{
         position: absolute;
         top: 2%;
@@ -201,7 +171,7 @@
     .Image{
         
         border-radius: 9999px;
-        margin:auto 0 auto 0;
+        margin:auto 4% auto auto;
     }
     
     .one{
@@ -211,8 +181,8 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         width: fit-content;
+        margin-right: 88%;
         
-        margin: 0 80% auto 20%;
     }
     .two{
         color: gray;
@@ -222,37 +192,22 @@
         display: block;
         position: absolute;
         top: 5%;
-        right: auto;
-        left: auto;
-        bottom: auto;
+        margin-right: 4%;
     }
     .three{
-        margin:auto 4.5% auto 96%;
-       position: absolute;
-       top: auto;
-       right: 31%;
-       bottom: auto;
-          
+        
+        
+        position: absolute;
+        right: 39%;
     }
     .fivesix{
-        margin: auto 6.8% auto auto;
-        right: 12%;
+        
+        margin-left: 58%;
         position: absolute;
     }
     
-    .five{
-       
-       margin-right: 4.8%;
-       position: absolute;
-       top: auto;
-       right: 57%;
-       
-    }
-    .six{
-        position: absolute;
-        top:5%;
-        left:65%;
-    }
+   
+    
     .seven{
         position: absolute;
         top: 2%;
