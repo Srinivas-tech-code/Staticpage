@@ -91,6 +91,10 @@
         margin-left: 81%; 
         right: 0;
       }
+      .prev{
+        position: absolute;
+        margin-top: 29%; 
+      }
       
        
 }
@@ -187,7 +191,12 @@
         margin-left: 81%; 
         right: 0;
       }
-      
+      .prev{
+        position: absolute;
+        margin-top: 29%;
+        
+        
+      }
     
      
 }
@@ -280,13 +289,13 @@
       }
       .prev{
         position: absolute;
-        margin-top: 9%;
+        margin-top: 14%;;
         
       }
       .last{
         position: absolute;
         margin-top: 5%;
-        margin-left: 87%; 
+        margin-left: 89%; 
         
       }
          
@@ -381,8 +390,8 @@
         width: 5%;
       }
       .prev{
-        position:'absolute';
-        margin-top: 9%;
+        position: absolute;
+        margin-top: 14%;;
         
       }
       .last{
