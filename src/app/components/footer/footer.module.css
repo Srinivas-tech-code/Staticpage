@@ -71,7 +71,7 @@
     .gold{
         position: absolute;
         margin-left: 2%;
-        margin-top: 14%;
+        margin-top: 15%;
         left: 13%;
         
     }
@@ -81,10 +81,8 @@
         left: 0;   
       }
       .before{
-        position: absolute;
-        margin-top: 10%;
-        margin-left: 31%; 
-        left: 30%;
+        margin-top: 15%;
+        margin-left: 5%; 
         width: 5%;
       }
       .last{
@@ -169,7 +167,7 @@
     .gold{
         position: absolute;
         margin-left: 2%;
-        margin-top: 14%;
+        margin-top: 15%;
         left: 13%;
         
     }
@@ -179,10 +177,8 @@
         left: 0;   
       }
       .before{
-        position: absolute;
-        margin-top: 10%;
-        margin-left: 31%; 
-        left: 30%;
+        margin-top: 15%;
+        margin-left: 5%; 
         width: 5%;
       }
       .last{
@@ -268,7 +264,7 @@
     .gold{
         position: absolute;
         margin-left: 2%;
-        margin-top: 14%;
+        margin-top: 15%;
         left: 13%;
         
     }
@@ -278,10 +274,8 @@
         left: 0;   
       }
       .before{
-        position: absolute;
-        margin-top: 10%;
-        margin-left: 31%; 
-        left: 30%;
+        margin-top: 13%;
+        margin-left: 9%; 
         width: 5%;
       }
       .last{
