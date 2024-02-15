@@ -9,21 +9,19 @@ interface propshere{
 
 const FirstInput: React.FC<propshere> = ({ label, placeholder }) => {
   return (
-    
-    <div className={styles.container}>
+    <><meta name="viewport" content="width=device-width, initial-scale=1.0" /><div className={styles.container}>
       <label className={styles.label}>
         {label}
       </label>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <input
         className={styles.input}
-        
-        
-        placeholder={placeholder}
-      />
-      
-    </div>
+
+
+        placeholder={placeholder} />
+
+    </div></>
     
   );
 }

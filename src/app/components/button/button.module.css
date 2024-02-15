@@ -1,4 +1,4 @@
-@media only screen and (max-width:480px) and (min-width:320px) {
+@media (max-width:480px) and (min-width:320px) {
 
     .container{
         
@@ -22,7 +22,7 @@
         border-radius: 4px;
     }
 }
-@media only screen and (max-width: 767px) and (min-width: 480px){
+@media (max-width: 767px) and (min-width: 481px){
 
     .container{
         margin:auto auto auto auto;
@@ -47,7 +47,7 @@
         margin:auto auto auto auto;
     }
 }
-@media only screen and (max-width: 1280px) and (min-width: 767px) {
+@media  (max-width: 1480px) and (min-width: 768px) {
 
     .container{
         margin:auto auto auto auto;
