@@ -1,237 +1,124 @@
-@media only screen and (max-width:480px) and (min-width:320px) {
-    .container{
-        background-color: white;
-        padding: auto auto auto auto ;
-        width: 100 vw;
-        height: 5 vh;
-        display: inline-flex;
-        justify-content: flex-start;
-        
-        
 
-    }
-    .hhh{
-        display:flex;
-        align-items: flex-start;
+@media only screen and (max-width:480px) {
+
+ 
+    .flexcontainer{
+        background-color: white;
+        display: flex;
     }
     .Image{
+       
+        border-radius: 90%;
+        margin-right: 2%;
+    }
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .person{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .rightbox{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        justify-content: space-between;
         
-        border-radius: 9999px;
-        margin-top: 4%;
-        margin-right: 4%;
-        
+        box-sizing: border-box;   
+    }
+    .abc{
+        display: flex;
+        padding:2%;
+    }
+    .hij{
+        display: flex;
+        flex-direction: row;
     }
     
-    .one{
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        font-weight: 600; 
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        width: fit-content;
-        margin-right: 88%;
-        
-    }
-    .two{
-        color: gray;
-        color: rgb(75 85 99); 
-        font-size: 0.75rem; 
-        line-height: 1rem; 
-        display: block;
-        position: absolute;
-        top: 4%;
-        margin-right: 4%;
-    }
-    .three{
-        
-        
-        position: absolute;
-        right: 39%;
-    }
-    .fivesix{
-        
-        margin-left: 52%;
-        position: absolute;
-    }
-    
-   
-    
-    .seven{
-        position: absolute;
-        top: 1%;
-        left: 88%;
-        bottom: auto;
-      
-        
- 
-    }
-    .eight{
-        width: 1%;
-        height: 1%;
-        position: absolute;
-        top: 1%;
-        left: 94%;
-        bottom: auto;
-        
-        
- 
-    }
 }
 @media only screen and (max-width:767px) and (min-width:481px) {
-    .container{
+    .flexcontainer{
         background-color: white;
-        padding: auto auto auto auto ;
-        width: 100 vw;
-        height: 5 vh;
-        display: inline-flex;
-        justify-content: flex-start;
-        
-        
-
-    }
-    .hhh{
-        display:flex;
-        align-items: flex-start;
+        display: flex;
     }
     .Image{
-        
-        border-radius: 9999px;
-        margin-top: 4%;
-        margin-right: 4%;
-        
+       
+        border-radius: 90%;
+        margin-right: 2%;
     }
-    
-    .one{
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        font-weight: 600; 
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        width: fit-content;
-        margin-right: 88%;
-        
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        box-sizing: border-box;
     }
-    .two{
-        color: gray;
-        color: rgb(75 85 99); 
-        font-size: 0.75rem; 
-        line-height: 1rem; 
-        display: block;
-        position: absolute;
-        top: 5%;
-        margin-right: 4%;
+    .person{
+        display: flex;
+        flex-direction: column;
+
     }
-    .three{
-        
-        
-        position: absolute;
-        right: 39%;
+    .rightbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: space-between;
+        margin-left: auto;
+       
+        box-sizing: border-box;   
     }
-    .fivesix{
-        
-        margin-left: 56%;
-        position: absolute;
+    .abc{
+        display: flex;
+        padding:2%;
     }
-    
-   
-    
-    .seven{
-        position: absolute;
-        top: 2%;
-        left: 88%;
-        bottom: auto;
-      
-        
- 
-    }
-    .eight{
-        width: 1%;
-        height: 1%;
-        position: absolute;
-        top: 1%;
-        left: 94%;
-        bottom: auto;
-        
-        
- 
+    .hij{
+        display: flex;
+        flex-direction: row;
     }
 }
 @media only screen and (max-width:1480px) and (min-width:768px) {
-    .container{
+    .flexcontainer{
         background-color: white;
-        padding: auto auto auto auto ;
-        width: 100 vw;
-        height: 5 vh;
-        display: inline-flex;
-        justify-content: flex-start;
-        
-        
-
-    }
-    .hhh{
-        display:flex;
-        align-items: flex-start;
+        display: flex;
     }
     .Image{
-        
-        border-radius: 9999px;
-        margin-top: 4%;
-        margin-right: 4%;
+       
+        border-radius: 90%;
+        margin-right: 2%;
+    }
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .person{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .rightbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: auto;
+        padding: auto;
+        box-sizing: border-box;   
+    }
+    .abc{
+        display: flex;
+        padding:2%;
+    }
+    .def{
+        display: flex;
+        flex-direction: column;
         
     }
-    
-    .one{
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        font-weight: 600; 
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        width: fit-content;
-        margin-right: 88%;
+    .hij{
+        display: flex;
         
-    }
-    .two{
-        color: gray;
-        color: rgb(75 85 99); 
-        font-size: 0.75rem; 
-        line-height: 1rem; 
-        display: block;
-        position: absolute;
-        top: 5%;
-        margin-right: 4%;
-    }
-    .three{
-        
-        
-        position: absolute;
-        right: 39%;
-    }
-    .fivesix{
-        
-        margin-left: 58%;
-        position: absolute;
-    }
-    
-   
-    
-    .seven{
-        position: absolute;
-        top: 2%;
-        left: 88%;
-        bottom: auto;
-      
-        
- 
-    }
-    .eight{
-        width: 1%;
-        height: 1%;
-        position: absolute;
-        top: 1%;
-        left: 96%;
-        bottom: auto;
-        
-        
- 
     }
 }
