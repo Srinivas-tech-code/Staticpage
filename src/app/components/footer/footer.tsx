@@ -27,7 +27,9 @@ const Footer = () => {
       <div className={styles.sixleft}>
     <Image style={{borderRadius:'90%',overflow:'hidden'}} width={40} height={40}  alt={"Dhoni"} src={"/Virat.jpg"}/>
     </div>
-    <Image className={styles.gold} width={10} height={18} src={'/goldstack.png'} alt={'gold coins'}/>
+    <div className={styles.gold}>
+    <Image width={10} height={18} src={'/goldstack.png'} alt={'gold coins'}/>
+    </div>
     <div className={styles.seven}> 
         <div>1100</div>
         <span style={{fontWeight:'bold'}} >Virat_kohli</span>

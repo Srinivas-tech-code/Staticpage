@@ -2,8 +2,9 @@
     .flexcontainer{
         background-color: #f7fafc;
         display: flex;
-        flex-direction: row;
+        
         justify-content: space-between;
+        width: 100%;
     }
     .three{
         display: flex;
@@ -47,18 +48,13 @@
         padding-top: 2%;
     }
     .seven{
-        margin-top: 11%;
-        margin-left: 2%;
-        position: absolute;
-        left: 15%;
+        display: flex;
         
     }
     .gold{
-        position: absolute;
-        margin-left: 2%;
-        margin-top: 15%;
-        left: 13%;
-        
+        display: flex;
+        margin-right: auto;
+        padding: 4%;
     }
       .seven div {
         margin-top: 14%;

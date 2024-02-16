@@ -5,107 +5,37 @@
     .flexcontainer{
         background-color: white;
         display: flex;
+        justify-content: space-between;
+        gap: 8%;
     }
     .Image{
-       
-        border-radius: 90%;
-        margin-right: 2%;
-    }
-    .leftbox{
-        display: flex;
-        flex-direction: row;
-        padding: 2%;
-        box-sizing: border-box;
-    }
-    .person{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .rightbox{
-        display: flex;
-        flex-direction: row;
-        margin-left: auto;
-        justify-content: space-between;
         
-        box-sizing: border-box;   
-    }
-    .abc{
-        display: flex;
-        padding:2%;
-    }
-    .hij{
-        display: flex;
-        flex-direction: row;
-    }
-    
-}
-@media only screen and (max-width:767px) and (min-width:481px) {
-    .flexcontainer{
-        background-color: white;
-        display: flex;
-    }
-    .Image{
-       
         border-radius: 90%;
         margin-right: 2%;
     }
     .leftbox{
         display: flex;
         flex-direction: row;
-        padding: 2%;
-        box-sizing: border-box;
+        
+       
     }
     .person{
         display: flex;
         flex-direction: column;
-
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+    }
+    .itemflex{
+        white-space: nowrap;
     }
     .rightbox{
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-        justify-content: space-between;
-        margin-left: auto;
-       
-        box-sizing: border-box;   
-    }
-    .abc{
-        display: flex;
-        padding:2%;
-    }
-    .hij{
-        display: flex;
-        flex-direction: row;
-    }
-}
-@media only screen and (max-width:1480px) and (min-width:768px) {
-    .flexcontainer{
-        background-color: white;
-        display: flex;
-    }
-    .Image{
-       
-        border-radius: 90%;
-        margin-right: 2%;
-    }
-    .leftbox{
-        display: flex;
-        flex-direction: row;
-        padding: 2%;
-        box-sizing: border-box;
-    }
-    .person{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .rightbox{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: auto;
-        padding: auto;
+        
+        justify-content: space-around;
+        
         box-sizing: border-box;   
     }
     .abc{
@@ -117,8 +47,123 @@
         flex-direction: column;
         
     }
+    .flexitem{
+        white-space: nowrap;
+        color: gray;
+    }
     .hij{
         display: flex;
+        flex-direction: row;
+    }
+    
+}
+@media only screen and (max-width:767px) and (min-width:480px) {
+    .flexcontainer{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Image{
+       
+        border-radius: 90%;
+        margin-right: 2%;
+    }
+    .leftbox{
+        display: flex;
+        flex-direction: row;
         
+       
+    }
+    .person{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+    }
+    .itemflex{
+        white-space: nowrap;
+    }
+    .rightbox{
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-around;
+        
+        box-sizing: border-box;   
+    }
+    .abc{
+        display: flex;
+        padding:2%;
+    }
+    .def{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .flexitem{
+        white-space: nowrap;
+        color: gray;
+    }
+    .hij{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width:1480px) and (min-width:768px) {
+    .flexcontainer{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Image{
+       
+        border-radius: 90%;
+        margin-right: 2%;
+    }
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        
+       
+    }
+    .person{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+    }
+    .itemflex{
+        white-space: nowrap;
+    }
+    .rightbox{
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-around;
+        
+        
+    }
+    .abc{
+        display: flex;
+        padding:2%;
+    }
+    .def{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .flexitem{
+        white-space: nowrap;
+        color: gray;
+    }
+    .hij{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-right: 1%;
     }
 }

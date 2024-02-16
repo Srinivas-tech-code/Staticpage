@@ -1,13 +1,15 @@
-@media only screen and (max-width:480px) and (min-width:320px){
+@media only screen and (max-width:480px){
     .container{
         padding: 0;
-        
-        width: 100 vw;        
+        display: flex;
+        align-items: flex-start;
+        width: max-content;
+        max-width: fit-content;        
         background-color: #f0f4f8;
     .Image{
-        width:100 vw; 
+         align-self: flex-start;
         padding: 0%;
-        
+        object-fit: cover;
         height:80 vh;
         margin: 0;
     }
@@ -18,15 +20,19 @@
     .container{
         padding: 0;
         width: 100 vw;
+        display: flex;
+        align-items: flex-start;
         background-color: #f0f4f8;
-    .Image{
+    }
+        .Image{
         width:100 vw; 
-        left:0; 
+         align-self: flex-start;
         height:80 vh;
         margin:0;
+        object-fit: cover;
     }
     
-}  
+
 }
 @media only screen and (max-width:1480px) and (min-width:768px){
     .container{
@@ -36,13 +42,15 @@
         display: flex;
         align-items: flex-start;
         background-color: #f0f4f8;
-    .Image{
+    }
+        .Image{
         width:'100%'; 
         align-self: flex-start;
-        left:0; 
+        
         height:80%;
+        object-fit: cover;
         margin: auto auto auto 0;
     }
     
-}  
+
 }
