@@ -1,14 +1,21 @@
 @media only screen and (max-width:480px) {
+   
     .flexcontainer{
         background-color: #f7fafc;
         display: flex;
         
         justify-content: space-between;
         width: 100%;
+        height: auto;
+    }
+    .main{
+        display: inline-flexbox;
+        
     }
     .three{
         display: flex;
         flex-direction: row;
+        margin-right: auto;
         justify-content: space-between;
         gap: 1.25rem;
     }
@@ -16,10 +23,10 @@
         background-color: rgb(82, 22, 138);
         color: rgb(255 255 255);
         font-style: bold;
-        position: absolute;
-        margin-top: 0%;
-        top: 10 vh;
-        right: 2%;
+        
+        margin-left: auto;
+        display: flex;
+        justify-content: right;
         border-radius: 0.25rem;
     }
     .zero{
@@ -43,10 +50,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .sixleft{
-        display: flex;
-        padding-top: 2%;
-    }
+   
     .seven{
         display: flex;
         
@@ -55,6 +59,11 @@
         display: flex;
         margin-right: auto;
         padding: 4%;
+    }
+    .footerflex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
       .seven div {
         margin-top: 14%;
@@ -80,39 +89,27 @@
        
 }
 @media only screen and (max-width:767px) and (min-width:481px) {
-    .container{
+    .flexcontainer{
         background-color: #f7fafc;
-        padding: 0;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         width: 100%;
-        
-        overflow: visible;
-    }
-    .two{
-        display: flex;
-        flex-direction: column;
-        
     }
     .three{
         display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        justify-content: space-between;
         gap: 1.25rem;
-        float: left;
-        width: fit-content;
-    }
-    
-    .three.Image{
-        color: black;
     }
     .four{
         background-color: rgb(82, 22, 138);
         color: rgb(255 255 255);
         font-style: bold;
         
-        position: absolute;
-        margin-top: 0%;
-        top: 10 vh;
-        right: 2%;
-       
+        margin-left: auto;
+        display: flex;
         border-radius: 0.25rem;
     }
     .zero{
@@ -121,7 +118,6 @@
     }
     .box{
         display: flex;
-        align-items: flex-start;
     }
     .five{
         font-size: 0.875rem;
@@ -133,28 +129,24 @@
        
     }
     .six{
-        margin-top: 13%;
-        margin-left: 1%;        
-        overflow: hidden;
-        border-radius: 50%;
-        position: absolute;
-        left: 0;
-        
-        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
+    
     .seven{
-        margin-top: 11%;
-        margin-left: 2%;
-        position: absolute;
-        left: 15%;
+        display: flex;
         
     }
     .gold{
-        position: absolute;
-        margin-left: 2%;
-        margin-top: 15%;
-        left: 13%;
-        
+        display: flex;
+        margin-right: auto;
+        padding: 4%;
+    }
+    .footerflex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
       .seven div {
         margin-top: 14%;
@@ -174,47 +166,33 @@
       }
       .prev{
         position: absolute;
-        margin-top: 29%;
-        
-        
+        margin-top: 29%; 
       }
     
      
 }
 @media only screen and (max-width:1280px) and (min-width:768px) {
-    .container{
+    .flexcontainer{
         background-color: #f7fafc;
-        padding: 0;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         width: 100%;
-        height: 100 vh;
-        overflow: visible;
-    }
-    .two{
-        display: flex;
-        flex-direction: column;
-        
     }
     .three{
         display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        justify-content: space-between;
         gap: 1.25rem;
-        float: left;
-        width: fit-content;
-    }
-    
-    .three.Image{
-        color: black;
     }
     .four{
         background-color: rgb(82, 22, 138);
         color: rgb(255 255 255);
         font-style: bold;
         
-        position: absolute;
-        margin-top: 0%;
-        top: 10 vh;
-        right: 2%;
-       
+        margin-left: auto;
+        display: flex;
         border-radius: 0.25rem;
     }
     .zero{
@@ -223,142 +201,35 @@
     }
     .box{
         display: flex;
-        align-items: flex-start;
     }
     .five{
         font-size: 0.875rem;
         line-height: 1.25rem;
        position: absolute;
        left: 0;
-       padding-top: 3.5%;
-       padding-left: 1%;
+       padding-top: 6.5%;
+       padding-left: 2%;
        
     }
     .six{
-        margin-top: 6%;
-        margin-left: 1%;        
-        overflow: hidden;
-        border-radius: 50%;
-        position: absolute;
-        left: 0;
-        
-        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
+    
     .seven{
-        margin-top: 6%;
-        margin-left: 2%;
-        position: absolute;
-        
+        display: flex;
         
     }
     .gold{
-        position: absolute;
-        margin-left: 1%;
-        margin-top: 6%;
-        
-        
-    }
-      .seven div {
-        
-        margin-left: 3%;
-        left: 0;   
-      }
-      .before{
-        margin-top: 5.5%;
-        margin-left: 7%; 
-        width: 5%;
-      }
-      .prev{
-        position: absolute;
-        margin-top: 14%;;
-        
-      }
-      .last{
-        position: absolute;
-        margin-top: 5%;
-        margin-left: 89%; 
-        
-      }
-         
-    
-     
-}
-@media only screen and (max-width:1480px) and (min-width:1281px) {
-    .container{
-        background-color: #f7fafc;
-        padding: 0;
         display: flex;
-        width: 100%;
-        
-        overflow: visible;
+        margin-right: auto;
+        padding: 4%;
     }
-    .two{
+    .footerflex{
         display: flex;
-        flex-direction: column;
-        
-    }
-    .three{
-        display: flex;
-        gap: 1.25rem;
-        float: left;
-        width: fit-content;
-    }
-    
-    .three.Image{
-        color: black;
-    }
-    .four{
-        background-color: rgb(82, 22, 138);
-        color: rgb(255 255 255);
-        font-style: bold;
-        
-        position: absolute;
-        margin-top: 0%;
-        top: 10 vh;
-        right: 2%;
-       
-        border-radius: 0.25rem;
-    }
-    .zero{
-        position: absolute;
-
-    }
-    .box{
-        display: flex;
-        align-items: flex-start;
-    }
-    .five{
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-       position: absolute;
-       left: 0;
-       padding-top: 2.5%;
-       padding-left: 1%;
-       
-    }
-    .six{
-        margin-top: 5%;
-        margin-left: 1%;        
-        overflow: hidden;
-        border-radius: 50%;
-        position: absolute;
-        left: 0;
-        
-        
-    }
-    .seven{
-        margin-top: 4%;
-        margin-left: 2%;
-        position: absolute;
-        
-        
-    }
-    .gold{
-        position: absolute;
-        margin-left: 0%;
-        margin-top: 6%;
-        
-        
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
       .seven div {
         margin-top: 14%;
@@ -366,22 +237,103 @@
         left: 0;   
       }
       .before{
-        margin-top: 5%;
-        margin-left: 9%; 
+        margin-top: 15%;
+        margin-left: 5%; 
         width: 5%;
-      }
-      .prev{
-        position: absolute;
-        margin-top: 14%;;
-        
       }
       .last{
         position: absolute;
-        margin-top: 5%;
-        margin-left: 92%; 
-        
+        margin-top: 10%;
+        margin-left: 81%; 
+        right: 0;
       }
-         
+      .prev{
+        position: absolute;
+        margin-top: 29%; 
+      }     
     
      
+}
+@media only screen and (max-width:1480px) and (min-width:1281px) {
+    .flexcontainer{
+        background-color: #f7fafc;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .three{
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        justify-content: space-between;
+        gap: 1.25rem;
+    }
+    .four{
+        background-color: rgb(82, 22, 138);
+        color: rgb(255 255 255);
+        font-style: bold;
+        
+        margin-left: auto;
+        display: flex;
+        border-radius: 0.25rem;
+    }
+    .zero{
+        position: absolute;
+
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .five{
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+       position: absolute;
+       left: 0;
+       padding-top: 6.5%;
+       padding-left: 2%;
+       
+    }
+    .six{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .seven{
+        display: flex;
+        
+    }
+    .gold{
+        display: flex;
+        margin-right: auto;
+        padding: 4%;
+    }
+    .footerflex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+      .seven div {
+        margin-top: 14%;
+        margin-left: 3%;
+        left: 0;   
+      }
+      .before{
+        margin-top: 15%;
+        margin-left: 5%; 
+        width: 5%;
+      }
+      .last{
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 81%; 
+        right: 0;
+      }
+      .prev{
+        position: absolute;
+        margin-top: 29%; 
+      } 
 }

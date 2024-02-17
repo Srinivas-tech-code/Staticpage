@@ -4,8 +4,8 @@ import styles from './footer.module.css'
 
 const Footer = () => {
   return (
-    <div className={styles.flexsupercontainer}>
     <div className={styles.flexcontainer}>
+    <div className={styles.main}>
       <div className={styles.three}>
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"  viewBox="0 0 16 16">
   <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1z"/>
@@ -13,20 +13,21 @@ const Footer = () => {
         <svg  fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
         <Image src={'/share.png'} width={24} height={24} alt='share'/>
       </div>
-      <div className={styles.four}>
+      <div style={{position:'absolute',right:'0'}} className={styles.four}>
       <button style={{backgroundColor:'rgb(82, 22, 138)',color:'white'}}>
   Lead +100
 <Image className='zero' alt='ucoin'  width={18} height={18} src={'/ucoin.png'}/>
 </button>
 </div>
 </div>
+<div className={styles.footerflex}>
     <div className={styles.box}>
     50 interested
     </div>
     <div className={styles.six} >
-      <div className={styles.sixleft}>
+     
     <Image style={{borderRadius:'90%',overflow:'hidden'}} width={40} height={40}  alt={"Dhoni"} src={"/Virat.jpg"}/>
-    </div>
+    
     <div className={styles.gold}>
     <Image width={10} height={18} src={'/goldstack.png'} alt={'gold coins'}/>
     </div>
@@ -46,7 +47,7 @@ const Footer = () => {
         <br/>
         <div className={styles.prev} >@Virat_kohli...Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, velit.</div>
         
-        
+        </div>
     </div>
     
 

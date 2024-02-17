@@ -7,6 +7,7 @@
         display: flex;
         justify-content: space-between;
         gap: 8%;
+        width: 100 vw;
     }
     .Image{
         
@@ -16,8 +17,7 @@
     .leftbox{
         display: flex;
         flex-direction: row;
-        
-       
+        margin-right: auto;
     }
     .person{
         display: flex;
@@ -33,10 +33,8 @@
     .rightbox{
         display: flex;
         flex-direction: row;
-        
-        justify-content: space-around;
-        
-        box-sizing: border-box;   
+        justify-content: flex-end;
+        margin-left: auto;
     }
     .abc{
         display: flex;
@@ -111,7 +109,7 @@
         flex-direction: row;
     }
 }
-@media only screen and (max-width:1480px) and (min-width:768px) {
+@media only screen and (max-width:1600px) and (min-width:768px) {
     .flexcontainer{
         background-color: white;
         display: flex;
