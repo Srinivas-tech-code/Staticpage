@@ -1,57 +1,162 @@
-@media only screen and (max-widt:480px) {
+@media only screen and (max-width:480px) {
     .flexcontainer{
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        
-        
+        background-color: white; 
+        justify-content: space-between;
         width: 100 vw;
     }
     
     .leftbox{
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        
+        flex-direction: row;
+        margin-right: auto;
+        justify-content: space-between;
     }
-    .subflex{
+    .xyz{
         display: flex;
-    }
-    .secondsubflex{
-        display: flex;
-
+        justify-content: flex-end;
+        align-items: flex-end;
     }
     .six{
+        position: relative;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-left: 2%;
+        
     }
-    .text{
+    .leftbox{
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.25rem;
+        margin: 2%;
     }
-    
     .rightbox{
         display: flex;
-        flex-direction: row;
         justify-content: flex-end;
-        margin-left: auto;
-    }
-    .abc{
-        display: flex;
-        padding:2%;
-    }
-    .def{
-        display: flex;
-        flex-direction: column;
-        
     }
     .flexitem{
         white-space: nowrap;
         color: gray;
     }
+    .seven{
+     position: absolute;
+     margin-left: 10%;
+        
+    }
     .hij{
         display: flex;
-        flex-direction: row;
+        position: absolute;
+        
+        margin-left: 25%;
     }
     
+}
+@media only screen and (max-width:767px) and (min-width:481px) {
+    .flexcontainer{
+        background-color: white; 
+        justify-content: space-between;
+        width: 100 vw;
+    }
+    
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    .xyz{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .six{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-left: 2%;
+        
+    }
+    .leftbox{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.25rem;
+        margin: 2%;
+    }
+    .rightbox{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .flexitem{
+        white-space: nowrap;
+        color: gray;
+    }
+    .seven{
+     position: absolute;
+     margin-left: 10%;
+        
+    }
+    .hij{
+        display: flex;
+        position: absolute;
+        
+        margin-left: 15%;
+    }
+    
+    
+}
+@media only screen and (max-width:1600px) and (min-width:768px) {
+    .flexcontainer{
+        background-color: white; 
+        justify-content: space-between;
+        width: 100 vw;
+    }
+    
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    .xyz{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .six{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-left: 2%;
+        
+    }
+    .leftbox{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.25rem;
+        margin: 2%;
+    }
+    .rightbox{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .flexitem{
+        white-space: nowrap;
+        color: gray;
+    }
+    .seven{
+     position: absolute;
+     margin-left: 10%;
+        
+    }
+    .hij{
+        display: flex;
+        position: absolute;
+        
+        margin-left: 15%;
+    }
 }
