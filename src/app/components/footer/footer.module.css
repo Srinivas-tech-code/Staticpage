@@ -83,13 +83,18 @@
         display: flex;
         flex-direction: row;
         width: 100 vw;
-        gap: 80%;
+        column-gap: 85%;
         justify-content: space-between;
     }
     .xyz{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-self: flex-end;
+        position: absolute;
+        
+        right: 0;
+        
     }
     .six{
         display: flex;
