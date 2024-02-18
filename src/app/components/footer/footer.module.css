@@ -1,4 +1,4 @@
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:233px) {
     .flexcontainer{
         background-color: white; 
         justify-content: space-between;
@@ -8,7 +8,8 @@
     .leftbox{
         display: flex;
         flex-direction: row;
-        
+        width: 100 vw;
+        gap: 80%;
         justify-content: space-between;
     }
     .xyz{
@@ -18,14 +19,18 @@
     }
     .six{
         display: flex;
+        width: 100 vw;
         flex-direction: row;
         padding-right: 4%;
         justify-content: space-between;
+        gap: 48%;
+        
     }
     .aftersix{
         display: flex;
         flex-direction: row;
         padding-left: 2%;
+        padding-right: 22%;
     }
     .leftbox{
         display: flex;
@@ -48,7 +53,158 @@
     }
     .nine{
         display: flex;
+        margin-right: 0;
+        padding-right: 0;
+        flex-direction: row;
+        justify-self: end;
+    }
+    .svgflex{
+        display: flex;
+        justify-content: space-between;
         
+    }
+    .klm{
+        display: flex;
+        width: 100 vw;
+        padding-left: 3%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:320px) and (min-width:234px){
+    .flexcontainer{
+        background-color: white; 
+        justify-content: space-between;
+        width: 100 vw;
+    }
+    
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        width: 100 vw;
+        gap: 80%;
+        justify-content: space-between;
+    }
+    .xyz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .six{
+        display: flex;
+        width: 100 vw;
+        flex-direction: row;
+        padding-right: 4%;
+        justify-content: space-between;
+        gap: 38%;
+        
+    }
+    .aftersix{
+        display: flex;
+        flex-direction: row;
+        padding-left: 2%;
+        padding-right: 22%;
+    }
+    .leftbox{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.25rem;
+        margin: 2%;
+    }
+    .flexitem{
+        white-space: nowrap;
+        color: gray;
+    }
+    .hij{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .lpj{
+        margin-left: 25%;
+        
+    }
+    .nine{
+        display: flex;
+        margin-right: 0;
+        padding-right: 0;
+        flex-direction: row;
+        justify-self: end;
+    }
+    .svgflex{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .klm{
+        display: flex;
+        width: 100 vw;
+        padding-left: 3%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:480px) and (min-width:321px){
+    .flexcontainer{
+        background-color: white; 
+        justify-content: space-between;
+        width: 100 vw;
+    }
+    
+    .leftbox{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 50%;
+        justify-content: space-between;
+    }
+    .xyz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .six{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        padding-right: 4%;
+        justify-content: space-between;
+        gap: 30%;
+        
+    }
+    .aftersix{
+        display: flex;
+        flex-direction: row;
+        padding-left: 2%;
+        padding-right: 22%;
+    }
+    .leftbox{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.25rem;
+        margin: 2%;
+    }
+    .flexitem{
+        white-space: nowrap;
+        color: gray;
+    }
+    .hij{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .lpj{
+        margin-left: 25%;
+        
+    }
+    .nine{
+        display: flex;
+        margin-right: 0;
+        padding-right: 0;
+        flex-direction: row;
+        justify-self: end;
     }
     .svgflex{
         display: flex;
@@ -114,7 +270,8 @@
     }
     .nine{
         display: flex;
-       
+        margin-right: 0;
+        padding-right: 0;
     }
     .svgflex{
         display: flex;
@@ -180,6 +337,8 @@
     }
     .nine{
         display: flex;
+        margin-right: 0;
+        padding-right: 0;
         
     }
     .svgflex{
