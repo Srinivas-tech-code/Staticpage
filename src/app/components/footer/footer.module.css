@@ -20,6 +20,12 @@
         display: flex;
         flex-direction: row;
         padding-right: 4%;
+        justify-content: space-between;
+    }
+    .aftersix{
+        display: flex;
+        flex-direction: row;
+        padding-left: 2%;
     }
     .leftbox{
         display: flex;
@@ -33,19 +39,28 @@
     }
     .hij{
         display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 15%;
-        top:49%;
+        flex-direction: row;
+        
     }
     .lpj{
         margin-left: 25%;
+        
+    }
+    .nine{
+        display: flex;
         
     }
     .svgflex{
         display: flex;
         justify-content: space-between;
         
+    }
+    .klm{
+        display: flex;
+        width: 100 vw;
+        padding-left: 3%;
+        justify-content: space-between;
+        align-items: center;
     }
     
 }
@@ -65,18 +80,18 @@
     .xyz{
         display: flex;
         flex-direction: column;
-        
-        
-        
+        justify-content: space-between;
     }
     .six{
-        position: relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        padding-right: 4%;
         justify-content: space-between;
-        flex-wrap: wrap;
+    }
+    .aftersix{
+        display: flex;
+        flex-direction: row;
         padding-left: 2%;
-        
     }
     .leftbox{
         display: flex;
@@ -84,32 +99,34 @@
         gap: 1.25rem;
         margin: 2%;
     }
-    .rightbox{
-        display: flex;
-        justify-content: flex-end;
-    }
     .flexitem{
         white-space: nowrap;
         color: gray;
     }
-    .seven{
-     position: absolute;
-     margin-left: 10%;
-     margin-right: 14%;
-        
-    }
     .hij{
         display: flex;
-        margin-left: 25%;
+        flex-direction: row;
+        
     }
     .lpj{
         margin-left: 25%;
         
     }
+    .nine{
+        display: flex;
+       
+    }
     .svgflex{
         display: flex;
         justify-content: space-between;
         
+    }
+    .klm{
+        display: flex;
+        width: 100 vw;
+        padding-left: 3%;
+        justify-content: space-between;
+        align-items: center;
     }
     
 }
@@ -129,18 +146,18 @@
     .xyz{
         display: flex;
         flex-direction: column;
-        
-        
-        
+        justify-content: space-between;
     }
     .six{
-        position: relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        padding-right: 4%;
         justify-content: space-between;
-        flex-wrap: wrap;
+    }
+    .aftersix{
+        display: flex;
+        flex-direction: row;
         padding-left: 2%;
-        
     }
     .leftbox{
         display: flex;
@@ -148,32 +165,33 @@
         gap: 1.25rem;
         margin: 2%;
     }
-    .rightbox{
-        display: flex;
-        justify-content: flex-end;
-    }
     .flexitem{
         white-space: nowrap;
         color: gray;
     }
-    .seven{
-     position: absolute;
-     margin-left: 10%;
-     margin-right: 14%;
-        
-    }
     .hij{
         display: flex;
-        margin-left: 25%;
-        
+        flex-direction:row;
+       
     }
     .lpj{
         margin-left: 25%;
+        
+    }
+    .nine{
+        display: flex;
         
     }
     .svgflex{
         display: flex;
         justify-content: space-between;
         
+    }
+    .klm{
+        display: flex;
+        width: 100 vw;
+        padding-left: 3%;
+        justify-content: space-between;
+        align-items: center;
     }
 }
