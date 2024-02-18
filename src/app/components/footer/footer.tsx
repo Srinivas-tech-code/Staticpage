@@ -23,33 +23,31 @@ const Footer = () => {
   Lead +100
 <Image className='zero' alt='ucoin'  width={18} height={18} src={'/ucoin.png'}/>
 </button>
+<br/>
+<Image style={{marginTop:'6%',marginLeft:'6%'}}  src={'/time2.png'} alt='time' width={81} height={15}/>
 </div>
       </div>
-      <div className={styles.nextbox}>
       <div className={styles.six} >
-     
     <Image style={{borderRadius:'90%',overflow:'hidden'}} width={40} height={40}  alt={"Dhoni"} src={"/Virat.jpg"}/>
     
-    <div className={styles.gold}>
     <Image width={10} height={18} src={'/goldstack.png'} alt={'gold coins'}/>
-    </div>
-    <div className={styles.seven}> 
-        <div>1100</div>
-        <span style={{fontWeight:'bold'}} >Virat_kohli</span>
-        <span style={{color:'gray'}}> in Lead</span>
+        1100
+        <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} viewBox="0 0 576 512"><path fill="#42aa1d" d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32H544c17.7 0 32 14.3 32 32V288c0 17.7-14.3 32-32 32s-32-14.3-32-32V205.3L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} viewBox="0 0 128 512"><path fill="#B197FC" d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg>
+        <div className={styles.hij}>
+        <div style={{fontWeight:'bold'}} >Virat_kohli</div>
+        <div style={{color:'gray'}}> in Lead</div>
         
         </div>
-        <div className={styles.hij}>
-        <div><svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} viewBox="0 0 576 512"><path fill="#42aa1d" d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32H544c17.7 0 32 14.3 32 32V288c0 17.7-14.3 32-32 32s-32-14.3-32-32V205.3L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg></div>
-        <div><svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} viewBox="0 0 128 512"><path fill="#B197FC" d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg></div>     
-        <div className={styles.lpj}><Image  src={'/time2.png'} alt='time' width={81} height={15}/></div>
+
         </div>
-        <div className={styles.klm}>
+        <br/>
+                <div className={styles.klm}>
           @Virat Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, doloribus?
         </div>
-        </div>
         
-        </div>
+        
+        
         
       </div>
       

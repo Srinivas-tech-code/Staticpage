@@ -13,18 +13,13 @@
     }
     .xyz{
         display: flex;
-        justify-content: flex-end;
-        align-items: first baseline;
-        
-    }
-    .six{
-        position: relative;
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
-        flex-wrap: wrap;
-        padding-left: 2%;
-        
+    }
+    .six{
+        display: flex;
+        flex-direction: row;
+        padding-right: 4%;
     }
     .leftbox{
         display: flex;
@@ -32,22 +27,16 @@
         gap: 1.25rem;
         margin: 2%;
     }
-    .rightbox{
-        display: flex;
-        justify-content: flex-end;
-    }
     .flexitem{
         white-space: nowrap;
         color: gray;
     }
-    .seven{
-     position: absolute;
-     margin-left: 10%;
-        
-    }
     .hij{
         display: flex;
-        margin-left: 25%;
+        flex-direction: column;
+        position: absolute;
+        left: 15%;
+        top:49%;
     }
     .lpj{
         margin-left: 25%;
@@ -75,8 +64,9 @@
     }
     .xyz{
         display: flex;
-        justify-content: flex-end;
-        align-items: first baseline;
+        flex-direction: column;
+        
+        
         
     }
     .six{
@@ -105,6 +95,7 @@
     .seven{
      position: absolute;
      margin-left: 10%;
+     margin-right: 14%;
         
     }
     .hij{
@@ -137,8 +128,9 @@
     }
     .xyz{
         display: flex;
-        justify-content: flex-end;
-        align-items: first baseline;
+        flex-direction: column;
+        
+        
         
     }
     .six{
@@ -167,11 +159,13 @@
     .seven{
      position: absolute;
      margin-left: 10%;
+     margin-right: 14%;
         
     }
     .hij{
         display: flex;
         margin-left: 25%;
+        
     }
     .lpj{
         margin-left: 25%;
