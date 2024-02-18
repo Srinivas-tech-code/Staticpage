@@ -15,6 +15,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
+        
     }
     .six{
         position: relative;
@@ -46,9 +47,14 @@
     }
     .hij{
         display: flex;
-        position: absolute;
-        
         margin-left: 25%;
+    }
+    .lpj{
+        margin-left: 25%;
+        
+    }
+    .svgflex{
+        gap:1.25rem;
     }
     
 }
@@ -98,13 +104,19 @@
      margin-left: 10%;
         
     }
+    .lpj{
+        display: flex;
+        align-items: flex-end;    
+    }
     .hij{
         display: flex;
         position: absolute;
         
         margin-left: 15%;
     }
-    
+    .svgflex{
+        gap:1.25rem;
+    }
     
 }
 @media only screen and (max-width:1600px) and (min-width:768px) {
@@ -158,5 +170,9 @@
         position: absolute;
         
         margin-left: 15%;
+    }
+    .svgflex{
+        gap:1.25rem;
+        display: inline-block;
     }
 }

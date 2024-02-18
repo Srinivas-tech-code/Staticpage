@@ -2,54 +2,41 @@
     .container{
         padding: 0;
         display: flex;
-        align-items: flex-start;
+        align-items: stretch;
         width:100%;       
         background-color: #f0f4f8;
-    .Image{
-         align-self: flex-start;
-        padding: 0%;
-        
+}    .Image{
         height:80 vh;
         margin: 0;
-    }
-    
-}  
+        width: 100 vw;
+}
+  
 }
 @media only screen and (max-width:767px) and (min-width:481px){
     .container{
         padding: 0;
-        width: 100 vw;
         display: flex;
-        align-items: flex-start;
+        align-items: stretch;
+        width:100%;       
         background-color: #f0f4f8;
-    }
-        .Image{
-        width:100 vw; 
-         align-self: flex-start;
+}    .Image{
         height:80 vh;
-        margin:0;
-        object-fit: cover;
-    }
-    
-
+        margin: 0;
+        width: 100 vw;
+}
 }
 @media only screen and (max-width:1480px) and (min-width:768px){
     .container{
         padding: 0;
-        padding-left: auto;
-        padding-right: auto;
         display: flex;
-        align-items: flex-start;
+        align-items: stretch;
+        width:100%;       
         background-color: #f0f4f8;
-    }
-        .Image{
-        width:'100%'; 
-        align-self: flex-start;
-        
-        height:80%;
-        object-fit: cover;
-        margin: auto auto auto 0;
-    }
+}    .Image{
+        height:80 vh;
+        margin: 0;
+        width: 100 vw;
+}
     
 
 }
