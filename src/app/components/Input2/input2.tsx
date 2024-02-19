@@ -11,9 +11,10 @@ const SecondInput: React.FC<Propshere> = ({ placeholder }) => {
     <div className={styles.container}>
 
       <input
-        className={styles.input}
+      className={styles.input}   
 
         placeholder={placeholder} />
+    
     </div>
     
   );

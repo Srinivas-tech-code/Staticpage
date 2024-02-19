@@ -5,14 +5,16 @@ import React from 'react';
 
 const Buttontag: React.FC = () => {
   return (
-    <div className={styles.container}>
+    
+      <div className={styles.container}>
       <button
-        className={styles.button}
+        className={styles.block}
         type="button"
       >
         Submit
       </button>
-    </div>
+      </div>
+    
     
   );
 }

@@ -2,15 +2,9 @@
     .flexcontainer{
         background-color: white; 
         justify-content: space-between;
-        width: 100 vw;
+        width: 100%;
     }
     
-    .leftbox{
-        display: flex;
-        flex-direction: row;
-        
-        justify-content: space-between;
-    }
     
     .six{
         display: flex;
@@ -26,9 +20,11 @@
     }
     .leftbox{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         gap: 1.25rem;
         margin: 2%;
+        width: 100%;
     }
     .flexitem{
         white-space: nowrap;
@@ -72,15 +68,9 @@
     .flexcontainer{
         background-color: white; 
         justify-content: space-between;
-        width: 100 vw;
+        width: 100%;
     }
     
-    .leftbox{
-        display: flex;
-        flex-direction: row;
-        
-        justify-content: space-between;
-    }
     
     .six{
         display: flex;
@@ -96,10 +86,12 @@
     }
     .leftbox{
         display: flex;
-        width: 100 vw;
+        flex-direction: row;
+        width: 100%;
         justify-content: space-between;
         gap: 1.25rem;
         margin: 2%;
+        width: 100 vw;
     }
     .flexitem{
         white-space: nowrap;
@@ -145,15 +137,9 @@
     .flexcontainer{
         background-color: white; 
         justify-content: space-between;
-        width: 100 vw;
+        width: 100%;
     }
     
-    .leftbox{
-        display: flex;
-        flex-direction: row;
-        
-        justify-content: space-between;
-    }
     
     .six{
         display: flex;
@@ -169,9 +155,11 @@
     }
     .leftbox{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         gap: 1.25rem;
         margin: 2%;
+        width: 100%;
     }
     .flexitem{
         white-space: nowrap;
@@ -214,15 +202,9 @@
     .flexcontainer{
         background-color: white; 
         justify-content: space-between;
-        width: 100 vw;
+        width: 100%;
     }
     
-    .leftbox{
-        display: flex;
-        flex-direction: row;
-        
-        justify-content: space-between;
-    }
     
     .six{
         display: flex;
@@ -238,9 +220,11 @@
     }
     .leftbox{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         gap: 1.25rem;
         margin: 2%;
+        width: 100%;
     }
     .flexitem{
         white-space: nowrap;
@@ -283,15 +267,9 @@
     .flexcontainer{
         background-color: white; 
         justify-content: space-between;
-        width: 100 vw;
+        width: 100%;
     }
     
-    .leftbox{
-        display: flex;
-        flex-direction: row;
-        
-        justify-content: space-between;
-    }
     
     .six{
         display: flex;
@@ -307,6 +285,8 @@
     }
     .leftbox{
         display: flex;
+        flex-direction: row;
+        width: 100%;
         justify-content: space-between;
         gap: 1.25rem;
         margin: 2%;

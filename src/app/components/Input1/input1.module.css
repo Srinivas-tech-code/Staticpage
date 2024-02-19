@@ -1,105 +1,37 @@
-@media only screen and (max-width:480px){
+@media only screen and (max-width:1600px){
     .container{
-      margin:auto auto auto auto;
-        padding:auto;
+      
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
        
     }
     
     .label{
         color: #1a202c;
         font-size: 1.125rem;
-        margin:auto auto auto 17.7%;
+        
         align-self:flex-start;
         justify-content: center;
-        width: 65%;
+        width: 100%;
         
     
     }
   .input {
     
     
-    margin:auto auto auto auto;
+    
     border: 2px solid black; 
     border-radius: 4px; 
-    width: 64.5%;
+    width: 100%;
     justify-content: center;
-    height: 25%;
+    height: auto;
     color: #4a5568; 
     line-height: 1.25;
     outline: none;
     box-shadow: 0 0 0 1px #a9c0e7; 
-  }
-  
-}
-@media (max-width: 767px) and (min-width: 481px) {
-    .container{
-      margin:auto auto auto auto;
-        padding: auto;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        
-    }
-    
-    .label{
-        color: #1a202c;
-        font-size: 1.125rem;
-        margin:auto auto auto 17.7%; 
-        justify-content: center;
-        width: 45%;
-        align-self:flex-start;
-    
-    }
-  .input {
-    
-    
-    justify-content: center;
-    margin:auto auto auto auto;
-    border: 2px solid black; 
-    border-radius: 4px; 
-    width: 64.5%;
-    height: 25%;
-    color: #4a5568; 
-    line-height: 1.25;
-    outline: none;
-    box-shadow: 0 0 0 1px #a9c0e7; 
-  }
-  
-}
-@media (max-width: 1600px) and (min-width: 768px) {
-    .container{
-        padding: auto;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: center;
-        margin:auto auto auto auto;
-    }
-    
-    .label{
-        color: #1a202c;
-        font-size: 1.125rem;
-        margin:auto auto auto 17.7%;
-        justify-content: center;
-        width: 45%;
-        align-self:flex-start;
-       
-    }
-  .input {
-    
-    margin:auto auto auto auto;
-    border: 2px solid black; 
-    border-radius: 4px; 
-    width: 64.5%;
-    height: 25%;
-    color: #4a5568; 
-    line-height: 1.25;
-    outline: none;
-    box-shadow: 0 0 0 1px #a9c0e7;
-    justify-content: center; 
   }
   
 }

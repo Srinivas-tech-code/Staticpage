@@ -10,14 +10,17 @@ interface propshere{
 const FirstInput: React.FC<propshere> = ({ label, placeholder }) => {
   return (
     <div className={styles.container}>
-      <label className={styles.label}>
+      <div className={styles.label}>
+      <label>
         {label}
       </label>
-      <br />
-      <br />
+      <br/>
+      <br/>
+      </div>
+      
       <input
+        
         className={styles.input}
-
 
         placeholder={placeholder} />
 

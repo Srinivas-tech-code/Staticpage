@@ -1,73 +1,23 @@
-@media only screen and (max-width:480px) {
-
+@media only screen and (max-width:1600px) {
     .container{
-        
-        margin:auto auto auto auto;
         display: flex;
+        flex-direction: column;
         align-items: center;
-       
-       
-
+        width: 100%;
+        height: auto;
     }
-    .button{
+    .block{
+        display: block;
+        border: 2px solid #5f3cac; 
+    border-radius: 4px; 
+        align-items: center;
         background-color: #5f3cac;
         color:white;
         font-style: bold;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 65.5%;
-        height: 40px;
         
-        margin:auto auto auto auto;
+        
+        width: 80%;
+        height: auto;
         border-radius: 4px;
-    }
-}
-@media (max-width: 767px) and (min-width: 481px){
-
-    .container{
-        margin:auto auto auto auto;
-       
-        display: flex;
-        align-items: center;
-        
-
-    }
-    .button{
-        background-color: #5f3cac;
-        color:white;
-        font-style: bold;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 65.5%;
-        height: 40px;
-        
-        
-        border-radius: 4px;
-        padding: auto;
-        margin:auto auto auto auto;
-    }
-}
-@media  (max-width: 1600px) and (min-width: 768px) {
-
-    .container{
-        margin:auto auto auto auto;
-        
-        display: flex;
-        align-items: center;
-        
-
-    }
-    .button{
-        background-color: #5f3cac;
-        color:white;
-        font-style: bold;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 65.5%;
-        height: 40px;
-        
-        
-        border-radius: 4px;
-        margin:auto auto auto auto;
     }
 }
