@@ -8,29 +8,20 @@
     .leftbox{
         display: flex;
         flex-direction: row;
-        width: 100 vw;
-        gap: 80%;
+        
         justify-content: space-between;
     }
-    .xyz{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    
     .six{
         display: flex;
-        width: 100 vw;
-        flex-direction: row;
+        flex-direction: column;
         padding-right: 4%;
         justify-content: space-between;
-        gap: 48%;
-        
     }
     .aftersix{
         display: flex;
         flex-direction: row;
-        padding-left: 2%;
-        padding-right: 22%;
+        gap: 0.1rem;
     }
     .leftbox{
         display: flex;
@@ -44,8 +35,8 @@
     }
     .hij{
         display: flex;
-        flex-direction: row;
-        
+        flex-direction:row;
+       
     }
     .lpj{
         margin-left: 25%;
@@ -53,14 +44,18 @@
     }
     .nine{
         display: flex;
+        flex-direction: column;
         margin-right: 0;
         padding-right: 0;
-        flex-direction: row;
-        justify-self: end;
+        margin-left: auto;
+        justify-content: space-between;
+        gap: 1.25rem;
+        
     }
     .svgflex{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.25rem;
         
     }
     .klm{
@@ -82,37 +77,24 @@
     .leftbox{
         display: flex;
         flex-direction: row;
-        width: 100 vw;
-        column-gap: 85%;
+        
         justify-content: space-between;
     }
-    .xyz{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-self: flex-end;
-        position: absolute;
-        
-        right: 0;
-        
-    }
+    
     .six{
         display: flex;
-        width: 100 vw;
-        flex-direction: row;
+        flex-direction: column;
         padding-right: 4%;
         justify-content: space-between;
-        gap: 38%;
-        
     }
     .aftersix{
         display: flex;
         flex-direction: row;
-        padding-left: 2%;
-        padding-right: 22%;
+        gap: 0.1rem;
     }
     .leftbox{
         display: flex;
+        width: 100 vw;
         justify-content: space-between;
         gap: 1.25rem;
         margin: 2%;
@@ -123,8 +105,8 @@
     }
     .hij{
         display: flex;
-        flex-direction: row;
-        
+        flex-direction:row;
+       
     }
     .lpj{
         margin-left: 25%;
@@ -132,14 +114,20 @@
     }
     .nine{
         display: flex;
+        flex-direction: column;
         margin-right: 0;
         padding-right: 0;
-        flex-direction: row;
-        justify-self: end;
+        justify-content: space-between;
+        gap: 1.25rem;
+
+        position: absolute;
+        right: 0%;
+        
     }
     .svgflex{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.25rem;
         
     }
     .klm{
@@ -161,29 +149,20 @@
     .leftbox{
         display: flex;
         flex-direction: row;
-        width: 100%;
-        gap: 50%;
+        
         justify-content: space-between;
     }
-    .xyz{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    
     .six{
         display: flex;
-        width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         padding-right: 4%;
         justify-content: space-between;
-        gap: 30%;
-        
     }
     .aftersix{
         display: flex;
         flex-direction: row;
-        padding-left: 2%;
-        padding-right: 22%;
+        gap: 0.1rem;
     }
     .leftbox{
         display: flex;
@@ -197,8 +176,8 @@
     }
     .hij{
         display: flex;
-        flex-direction: row;
-        
+        flex-direction:row;
+       
     }
     .lpj{
         margin-left: 25%;
@@ -206,14 +185,17 @@
     }
     .nine{
         display: flex;
+        flex-direction: column;
         margin-right: 0;
         padding-right: 0;
-        flex-direction: row;
-        justify-self: end;
+        justify-content: space-between;
+        gap: 1.25rem;
+        
     }
     .svgflex{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.25rem;
         
     }
     .klm{
@@ -238,21 +220,17 @@
         
         justify-content: space-between;
     }
-    .xyz{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    
     .six{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-right: 4%;
         justify-content: space-between;
     }
     .aftersix{
         display: flex;
         flex-direction: row;
-        padding-left: 2%;
+        gap: 0.1rem;
     }
     .leftbox{
         display: flex;
@@ -266,8 +244,8 @@
     }
     .hij{
         display: flex;
-        flex-direction: row;
-        
+        flex-direction:row;
+       
     }
     .lpj{
         margin-left: 25%;
@@ -275,12 +253,17 @@
     }
     .nine{
         display: flex;
+        flex-direction: column;
         margin-right: 0;
         padding-right: 0;
+        justify-content: space-between;
+        gap: 1.25rem;
+        
     }
     .svgflex{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.25rem;
         
     }
     .klm{
@@ -305,21 +288,17 @@
         
         justify-content: space-between;
     }
-    .xyz{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    
     .six{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-right: 4%;
         justify-content: space-between;
     }
     .aftersix{
         display: flex;
         flex-direction: row;
-        padding-left: 2%;
+        gap: 0.1rem;
     }
     .leftbox{
         display: flex;
@@ -342,13 +321,17 @@
     }
     .nine{
         display: flex;
+        flex-direction: column;
         margin-right: 0;
         padding-right: 0;
+        justify-content: space-between;
+        gap: 1.25rem;
         
     }
     .svgflex{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.25rem;
         
     }
     .klm{

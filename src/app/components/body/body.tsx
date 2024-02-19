@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-
-
 import styles from './body.module.css'
+import dhoni2 from '../../../../public/dhoni2.png'
 
 interface propshere{
 
@@ -10,10 +9,9 @@ interface propshere{
 
 const Body:React.FC<propshere> = () => {
   return (
-    
-    <div className={styles.container}>
-          <Image sizes="(max-width:480px) and (min-width:0px)  100%,(max-width: 768px) 100%, (max-width: 1280px) 100%" width={1480} height={1280} src={'/pixels.jpg'} layout='responsive' alt={'Sun is rising'} priority/>
-    </div>
+    <><meta name="viewport" content="width=device-width, initial-scale=1.0" /><div>
+      <Image  style={{ objectFit: 'contain',overflowX:'hidden' }} src={dhoni2} layout='responsive' alt={'Sun is rising'} />
+    </div></>
     
    
 
