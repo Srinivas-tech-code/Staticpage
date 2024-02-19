@@ -38,14 +38,25 @@ const Footer = () => {
         <div className={styles.aftersix}>
         <Image style={{borderRadius:'90%',overflow:'hidden'}} width={40} height={40}  alt={"Dhoni"} src={"/Virat.jpg"}/>
     
-    <Image width={10} height={18} src={'/goldstack.png'} alt={'gold coins'}/>
-    
-        <div  style={{marginTop:'0%'}} >
-        <span>1100</span><br/>
-          <span style={{fontWeight:'bold'}}>Virat_kohli </span><span style={{color:'gray'}}>in Lead</span>
+    <div style={{display:'flex',flexDirection:'column'}}>
+      <div style={{display:'flex',flexDirection:'row'}}>
+      <Image width={10} height={18} src={'/goldstack.png'} alt={'gold coins'}/>
+      <div>1100 </div>
+      <div>
+           <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} viewBox="0 0 576 512"><path fill="#42aa1d" d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32H544c17.7 0 32 14.3 32 32V288c0 17.7-14.3 32-32 32s-32-14.3-32-32V205.3L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg><br/>
+          
         </div>
+      </div>
+    <div>
+      <span style={{fontWeight:'bold'}}>Virat_kohli </span>
+          <span style={{color:'gray'}}>in Lead</span>
+          </div>
+          
+          </div>
         
-        <svg style={{paddingTop:'0'}} xmlns="http://www.w3.org/2000/svg" width={25} height={25} viewBox="0 0 576 512"><path fill="#42aa1d" d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32H544c17.7 0 32 14.3 32 32V288c0 17.7-14.3 32-32 32s-32-14.3-32-32V205.3L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg>
+        
+       
+        
         
         </div>
         
