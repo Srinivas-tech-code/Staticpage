@@ -5,6 +5,10 @@ import styles from './head.module.css'
 
 const Head:React.FC = () => {
   return (
+    
+     
+    
+    
 
   <div className={styles.flexcontainer}>
       <div className={styles.leftbox}>  
@@ -30,8 +34,10 @@ const Head:React.FC = () => {
         
       </div>
       
+     
+      
   
-    
+     
   )
 }
 export default Head

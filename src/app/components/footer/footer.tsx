@@ -4,6 +4,10 @@ import styles from './footer.module.css'
 
 const Footer = () => {
   return (
+    
+     
+  
+  
     <div className={styles.flexcontainer}>
       <div className={styles.leftbox}>
        
@@ -74,8 +78,9 @@ const Footer = () => {
       </div>
       
   
-  
-
+    
+      
+     
   )
 }
 
