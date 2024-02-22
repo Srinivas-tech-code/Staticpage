@@ -5,10 +5,7 @@ import styles from './head.module.css'
 
 const Head:React.FC = () => {
   return (
-    <html>
-     
-    
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   
 
 
   <div className={styles.flexcontainer}>
@@ -38,7 +35,7 @@ const Head:React.FC = () => {
      
       
   
-      </html>
+      
   )
 }
 export default Head

@@ -10,8 +10,7 @@ interface propshere{
 const Body:React.FC<propshere> = () => {
   return (
     
-<html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 
     
     
@@ -19,8 +18,6 @@ const Body:React.FC<propshere> = () => {
       <Image src={dhoni2} layout='responsive' alt={'Sun is rising'} />
     </div>
    
-    </html>
-    
     
     
     
