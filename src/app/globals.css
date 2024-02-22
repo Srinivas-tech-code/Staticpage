@@ -1,7 +1,18 @@
-@media only screen and (max-width:480px){
-    html{
-        width:fit-content;
-               
-        
+._cred.tsx{
+    @media only screen and (max-width:480px){
+        html{
+            width:fit-content;
+                   
+            
+        }
+    }
+}
+.page.tsx{
+    @media only screen and (max-width:480px){
+        html{
+            width:fit-content;
+                   
+            
+        }
     }
 }
