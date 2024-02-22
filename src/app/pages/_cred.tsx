@@ -8,7 +8,7 @@ import Link from "next/link"
 function MyApp(){
     return(
         <>
-    
+        <html style={{width:'auto'}}>
         <FirstInput label={"Enter your credentials"} placeholder={"Enter your name"}/>
         <br/>
         <SecondInput placeholder={"Enter your username"}/>
@@ -16,6 +16,7 @@ function MyApp(){
         <Buttontag/>
         <br/>
         <Link href="/pages/post/">Click</Link>
+        </html>
         </>
     )
 }
