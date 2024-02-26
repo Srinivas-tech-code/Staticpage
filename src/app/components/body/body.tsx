@@ -14,7 +14,7 @@ const Body:React.FC<propshere> = () => {
 
     
     
-       <div style={{boxSizing:'border-box',margin:'0'}}>
+       <div >
       <Image src={dhoni2} layout='responsive' alt={'Sun is rising'} />
     </div>
    

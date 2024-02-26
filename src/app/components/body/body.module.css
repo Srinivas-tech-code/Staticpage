@@ -1,5 +1,10 @@
-@media only screen and (max-width:320px){
-    html{
-        width: fit-content;
+.pic{
+    flex-grow: 1;
+}
+@media only screen and (max-width:400px){
+    .pic{
+        width: 400px;
+        box-sizing:border-box;
+        margin:'0';
     }
 }
