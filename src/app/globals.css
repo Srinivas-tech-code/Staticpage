@@ -14,13 +14,10 @@
     }
 }
 .page.tsx{
-    @media only screen and (max-width:3000px){
-        .body{
-            margin:0;
-            
-        }
-        .element.style{
-            margin: 0;
+    @media only screen and (max-width:480px){
+        
+        .html{
+            width: 400px;
         }
     }
 }

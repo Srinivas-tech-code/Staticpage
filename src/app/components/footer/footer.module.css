@@ -82,12 +82,12 @@
     .body{
         position: fixed;
         width: 100%;
-        margin: 0;
     }
     .flexcontainer{
         background-color: white; 
         justify-content: space-between;
         width: 100% !important;
+        height: 100%;
         box-sizing: border-box;
     }
     
@@ -107,11 +107,10 @@
     .leftbox{
         display: flex;
         flex-direction: row;
-        width: 100% !important;
         justify-content: space-between;
         gap: 1.25rem;
-        
-        
+        margin: 2%;
+        width: 100% !important;
     }
     .flexitem{
         white-space: nowrap;
@@ -129,11 +128,10 @@
     .nine{
         display: flex;
         flex-direction: column;
-        
-       
+        margin-right: 0;
+        padding-right: 4%;
+        justify-content: space-between;
         gap: 1.25rem;
-
-        
         
     }
     .svgflex{
